@@ -21,7 +21,7 @@ function formatMessage(text: string) {
 }
 
 function CompoundCalculator() {
-  const [principal, setPrincipal] = useState(1000);
+  const [principal, setPrincipal] = useState(5000);
   const [rate, setRate] = useState(8);
   const [years, setYears] = useState(10);
   const [frequency, setFrequency] = useState(12);
